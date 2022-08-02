@@ -1,15 +1,15 @@
 #main-header {
-    background-color: #2F8F9D;
+    background-color: #2C3639;
 }
 
-.submit-btn {
+.send-btn {
     width: 60%;
     height: 40px;
     margin: 10px auto;
     justify-content: center;
     display: block;
     color: #fff;
-    background: #2F8F9D;
+    background: #2C3639;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
@@ -45,7 +45,7 @@ input {
 #btn {
     background-color: white;
     border: none;
-    color: #2F8F9D;
+    color: #5e6e72;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -54,11 +54,11 @@ input {
 }
 
 #btn.active {
-    transform: translateX(-90px);
+    transform: translateX(-140px);
 }
 
 nav {
-    background-color: #3BACB6;
+    background-color: #5e6e72;
     position: fixed;
     top: 0;
     right: 0;
@@ -94,34 +94,17 @@ nav a:hover {
 
 nav button {
     border: none;
-    background-color: #3BACB6;
+    background-color: #5e6e72;
     color: white;
     padding: 0;
     cursor: pointer;
 }
 
+.title {
+    margin-left: 43%;
+}
+
 .empty::-webkit-input-placeholder {
     color: red;
     font-family: 'Patua One', cursive;
-}
-
-#items a {
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    font-weight: 400;
-    margin-left: 45%;
-}
-
-#items a:hover {
-    text-decoration: none;
-    color: #2F8F9D;
-}
-
-.title {
-    margin: 0 auto;
-}
-
-#created {
-    margin-left: 43%;
 }
