@@ -1,4 +1,4 @@
-console.log("dsfds")
+console.log("hello");
 
 document.addEventListener('DOMContentLoaded',async()=>{
     getGroups()

@@ -47,7 +47,7 @@ submit.addEventListener('click',(event)=>{
 
                 setTimeout(() => {
                     container.style.display="none";
-                    window.location='/login.html';
+                    window.location='../login/login.html';
                     
                 }, 1000);
 

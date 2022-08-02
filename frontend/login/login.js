@@ -34,7 +34,7 @@ login.addEventListener('click',(event)=>{
                 
                 localStorage.setItem('token', res.data.token)
                 localStorage.setItem('userDetails', JSON.stringify({name:res.data.name, email: res.data.email}))
-                // window.location.replace('../HomePage/home.html')
+                window.location.replace('../GroupsPage/groups.html');
             }
             
         }).catch(err=>{
